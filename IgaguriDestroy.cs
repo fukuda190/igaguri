@@ -1,14 +1,18 @@
-﻿using System.Collections;
+﻿//IgaguriのPrefabにアタッチする
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class IgaguriDestroy : MonoBehaviour {
 
     float time;
+    float destroyTime;
 
 	// Use this for initialization
 	void Start () {
 
+        destroyTime = 5f;
 
 	}
 	
@@ -17,7 +21,7 @@ public class IgaguriDestroy : MonoBehaviour {
 
         time += Time.deltaTime;
 
-        if (time >= 5)
+        if (time >= destroyTime)
         {
 
             Destroy(this.gameObject);
