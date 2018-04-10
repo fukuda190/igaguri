@@ -1,4 +1,4 @@
-﻿//IgaguriのPrefabにアタッチする
+﻿//Igaguri自然消失スクリプト：IgaguriのPrefabにアタッチする
 
 using System.Collections;
 using System.Collections.Generic;
